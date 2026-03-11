@@ -12,6 +12,13 @@ import FloatingContact from './components/FloatingContact';
 function App() {
   return (
     <div className="min-h-screen bg-white">
+
+      {/* ✅ WEBSITE NOTE */}
+      <div className="bg-yellow-200 text-yellow-900 text-center py-2 text-sm font-semibold">
+        ⚠️ Note: 🚧 Website Under Development. Book your service via our contact number.
+        📢 Online booking will be available soon
+      </div>
+
       <Header />
       <Hero />
       <Services />
